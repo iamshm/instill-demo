@@ -1,4 +1,5 @@
 import CardList from '../components/card-list'
+import SkeletonContainer from '../components/skeleton-container'
 import WorkSummary from '../components/work-summary'
 import {
     analyticsGridContainer,
@@ -24,6 +25,16 @@ const DashBoard = () => {
             <CardList />
             <div className={analyticsGridContainer}>
                 <WorkSummary />
+                <SkeletonContainer
+                    title="Top Countries"
+                    subTitle="Favourites"
+                    cta={{
+                        title: 'View All',
+                        onClick: () => null,
+                    }}
+                >
+                    <div>Hello</div>
+                </SkeletonContainer>
             </div>
         </div>
     )
