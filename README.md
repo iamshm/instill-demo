@@ -9,7 +9,8 @@
 
 ![Web Version](/screenshots/web.png 'Web')
 
-### in Mobile
+### In Mobile
 
-![Mobile Version](/screenshots/mob1.png 'Web')
-![Mobile Version](/screenshots/mob2.png 'Web')
+<img src="screenshots/mob1.png" width="480">
+<img src="screenshots/mob2.png" width="480">
+<img src="screenshots/mob3.png" width="480">

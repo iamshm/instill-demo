@@ -9,7 +9,6 @@ export const container = css`
     ${mediaQueryMaxWidth} {
         margin-left: 0px;
         padding: 20px;
-        width: 100vw;
     }
 `
 export const menuOpener = css`
