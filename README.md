@@ -1,7 +1,15 @@
-# Instill DashBoard
+# Instill Dashboard
 
 -   Made with React, Typescript and Emotion CSS
 -   Reusable Components
 -   Modular
+-   And obviously, beautiful!
 
-![Alt text](/screenshots/web.png 'Web')
+### In Desktop
+
+![Web Version](/screenshots/web.png 'Web')
+
+### in Mobile
+
+![Mobile Version](/screenshots/mob1.png 'Web')
+![Mobile Version](/screenshots/mob2.png 'Web')
