@@ -22,7 +22,7 @@ export const cardContainer = css`
     border: 1px solid #e6e7e9;
     min-height: 100px;
     background-color: white;
-    min-width: 334px;
+    min-width: 300px;
     padding: 15px;
 `
 export const nameRevenueContainer = css`
@@ -84,6 +84,5 @@ export const progressBarOuter = css`
 export const progressBarInner = (progress: number) => css`
     width: ${progress}%;
     height: 6px;
-
     background: linear-gradient(270deg, #60b0fa 0%, #4a4de6 100%);
 `

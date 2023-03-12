@@ -2,12 +2,22 @@ import { css } from '@emotion/css'
 import { mediaQueryMaxWidth } from '../utils/helpers'
 
 export const container = css`
+    margin-left: 250px;
+    height: 100%;
     padding: 50px;
     background-color: #f9f9fa;
-    width: calc(100vw - 300px);
     ${mediaQueryMaxWidth} {
+        margin-left: 0px;
         padding: 20px;
         width: 100vw;
+    }
+`
+export const menuOpener = css`
+    display: none;
+    ${mediaQueryMaxWidth} {
+        display: block;
+        margin-right: 10px;
+        cursor: pointer;
     }
 `
 export const headerContainer = css`
@@ -15,8 +25,7 @@ export const headerContainer = css`
     justify-content: space-between;
     padding-bottom: 25px;
     ${mediaQueryMaxWidth} {
-        flex-direction: column;
-        justify-content: center;
+        padding-bottom: 5px;
     }
 `
 export const nameContainer = css`
@@ -25,7 +34,24 @@ export const nameContainer = css`
     font-weight: 500;
 `
 export const searchContainer = css`
-    background-color: blueviolet;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid rgba(230, 231, 233, 1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(24, 24, 25, 0.42);
+    img {
+        margin-right: 5px;
+    }
+    ${mediaQueryMaxWidth} {
+        padding: 10px;
+        width: 100px;
+    }
 `
 export const namePremiumContainer = css`
     display: flex;
@@ -44,6 +70,11 @@ export const premiumContainer = css`
     width: fit-content;
     padding: 8px 12px;
     font-size: 13px;
+    ${mediaQueryMaxWidth} {
+        padding: 8px 8px;
+        font-weight: 400;
+        font-size: 11px;
+    }
 `
 export const analyticsGridContainer = css`
     padding-top: 20px;

@@ -8,6 +8,9 @@ export const container = css`
     border-radius: 8px;
     max-height: 400px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `
 export const headerContainer = css`
     display: flex;
@@ -29,4 +32,15 @@ export const subTitleText = css`
 export const footerContainer = css`
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #e6e7e9;
+    margin: 0 -20px;
+    padding: 10px 20px 0px 20px;
+    span {
+        font-size: 12;
+        font-weight: 500;
+        color: #4a4de6;
+        padding-right: 5px;
+        cursor: pointer;
+    }
 `

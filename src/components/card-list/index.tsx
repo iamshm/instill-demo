@@ -21,8 +21,8 @@ import {
 const CardList = () => {
     return (
         <div className={container}>
-            {cardsDummyData.map((data) => (
-                <Cards data={data} />
+            {cardsDummyData.map((data, index) => (
+                <Cards key={index} data={data} />
             ))}
         </div>
     )
